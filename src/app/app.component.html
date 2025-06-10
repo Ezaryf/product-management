@@ -1,0 +1,13 @@
+<main>
+    <header>
+        <h1>Product Management</h1>
+        <nav>
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+            <a routerLink="/products" routerLinkActive="active">Products</a>
+            <a routerLink="/about" routerLinkActive="active">About</a>
+        </nav>
+    </header>
+    <section>
+        <router-outlet></router-outlet>
+    </section>
+</main>
